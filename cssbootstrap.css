@@ -1,0 +1,90 @@
+.flotte
+{
+
+	float: right;
+}
+
+.flotte1
+{
+
+	float: center;
+	max-width: 50%;
+}
+
+.card img {
+width: 100%;
+height:auto;
+}
+
+.card2 img {
+width: 10%;
+height:auto;
+}
+
+.gandalf {	
+font-family : Arial, sans-serif;
+position: relative;	
+}
+
+.gandalf img {
+opacity: 0.5;
+}
+
+
+.gandalf h3 {
+color: white;
+position: absolute;
+top: 80px;
+font-size: 3em;
+text-align: center;
+font-weight:normal;
+width: 80%;
+
+}
+
+.reward {
+position: absolute;
+top: 10px;
+left: 10%;
+width:80%;
+text-align: center;
+background: white;
+border-radius: 10px;
+opacity:0.8;
+font-size: 1.5em;
+padding: 10px 20px;
+box-sizing: border-box;
+
+}
+
+.reward span {
+color:orange;
+}
+
+
+.gandalf:hover img {
+opacity: 1;
+
+}
+
+.gandalf:hover .reward {
+display: none;
+
+}
+
+.gandalf:hover h3 {
+font-size: 1.5em;
+top:initial;
+bottom: -5px;
+}
+
+.container-fluid {
+margin-top: 2%;
+}
+
+hr
+{
+
+	width: 100%;
+	color: black;
+}
